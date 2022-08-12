@@ -1,0 +1,33 @@
+---
+# tasks file for vlans
+- name: Run 'show vlans' prior executing commands
+  ios_command:
+    commands: show vlan brief
+  register: myvlans
+  tags: shvlans
+
+- name: Display value of "myvlans" variable
+  ansible.builtin.debug:
+    var: myvlans["stdout_lines"][0]
+  tags: shvlans
+
+- name: Configure switch VLANs
+  cisco.ios.ios_vlans:
+    config:
+      - name: "{{ item.name }}"
+        vlan_id: "{{ item.id }}"
+        state: active
+        shutdown: disabled
+  loop: "{{ vlans }}"
+  tags: vlans
+
+- name: Run 'show vlans' after changes
+  ios_command:
+    commands: show vlan brief
+  register: myvlans
+  tags: shvlans
+
+- name: Display value of "myvlans" variable
+  ansible.builtin.debug:
+    var: myvlans["stdout_lines"][0]
+  tags: shvlans

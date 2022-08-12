@@ -1,0 +1,9 @@
+wheel
+ansible==2.9.6
+cryptography
+ncclient
+netmiko
+paramiko
+pexpect
+ansible-lint
+yamllint
