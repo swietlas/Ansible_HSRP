@@ -41,7 +41,7 @@ interfaces:
 
  - name: Vlan 11
    description: int VLAN 11 configured by Ansible
-   ipv4: 10.11.0.324
+   ipv4: 10.11.0.3/24
    ipv6: "2001:DB8:ACAD:11::3/64"  
    link_local: FE80::A1:1
    mode: L3
