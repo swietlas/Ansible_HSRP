@@ -52,6 +52,7 @@
           - address: "{{ item.ipv4 }}"
         ipv6:
           - address: "{{ item.ipv6 }}"
+            #link_local: yes
     state: merged
   loop: "{{ interfaces }}"
   loop_control:
@@ -63,7 +64,7 @@
 - name: Configure IPv6 link-local addresses
   cisco.ios.ios_config:
     lines:
-      - ipv6 address {{ item.link_local | ansible.netcommon.ipaddr('address') }} link-local
+      - ipv6 address {{ item.link_local | ansible.utils.ipaddr('address') }} link-local
     parents: interface {{ item.name }}
   loop: "{{ interfaces }}"
   loop_control:
