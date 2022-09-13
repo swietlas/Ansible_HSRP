@@ -56,7 +56,7 @@
   loop: "{{ interfaces }}"
   loop_control:
     label: "{{ item.name }}"
-  when: item.mode == 'L3'
+  when: item.ipv4 is defined or item.ipv6 is defined
   # when: "item.mode is not defined"
   tags: addresses
 
