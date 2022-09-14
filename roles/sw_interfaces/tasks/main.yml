@@ -52,7 +52,6 @@
           - address: "{{ item.ipv4 }}"
         ipv6:
           - address: "{{ item.ipv6 }}"
-            #link_local: yes
     state: merged
   loop: "{{ interfaces }}"
   loop_control:

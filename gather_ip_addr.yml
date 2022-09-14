@@ -1,0 +1,19 @@
+- name: Configuring Basic Topology
+  hosts: all
+  gather_facts: False
+  tags: basic
+  tasks: 
+
+
+
+    - name: Gather listed l3 interfaces with provided configurations
+      cisco.ios.ios_l3_interfaces:
+        state: gathered
+
+    - name:  Rendered listed l3 interfaces with provided configurations
+      cisco.ios.ios_l3_interfaces:
+        state: rendered
+    
+    - name:  Parsed listed l3 interfaces with provided configurations
+      cisco.ios.ios_l3_interfaces:
+        state: parsed
