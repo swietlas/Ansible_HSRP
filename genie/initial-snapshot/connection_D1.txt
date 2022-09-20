@@ -1,0 +1,120 @@
+
+2022-09-19 13:23:07,652: %UNICON-INFO: +++ D1 logfile initial-snapshot/connection_D1.txt +++
+
+2022-09-19 13:23:07,652: %UNICON-INFO: +++ Unicon plugin ios (unicon.plugins.ios) +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:UWFxs58S+0z8GYRrVtyBMWBqGpBTjYR0g1I0OeiMqg8.
+Please contact your system administrator.
+Add correct host key in /home/swt/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/swt/.ssh/known_hosts:33
+  remove with:
+  ssh-keygen -f "/home/swt/.ssh/known_hosts" -R "10.10.7.111"
+RSA host key for 10.10.7.111 has changed and you have requested strict checking.
+Host key verification failed.
+
+
+2022-09-19 13:23:07,724: %UNICON-INFO: +++ connection to spawn: ssh -l ansi 10.10.7.111, id: 139861813538672 +++
+
+2022-09-19 13:23:07,725: %UNICON-INFO: connection to D1
+
+2022-09-19 13:28:00,992: %UNICON-INFO: +++ D1 logfile initial-snapshot/connection_D1.txt +++
+
+2022-09-19 13:28:00,993: %UNICON-INFO: +++ Unicon plugin ios (unicon.plugins.ios) +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:UWFxs58S+0z8GYRrVtyBMWBqGpBTjYR0g1I0OeiMqg8.
+Please contact your system administrator.
+Add correct host key in /home/swt/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/swt/.ssh/known_hosts:33
+  remove with:
+  ssh-keygen -f "/home/swt/.ssh/known_hosts" -R "10.10.7.111"
+RSA host key for 10.10.7.111 has changed and you have requested strict checking.
+Host key verification failed.
+
+
+2022-09-19 13:28:01,044: %UNICON-INFO: +++ connection to spawn: ssh -l ansi 10.10.7.111, id: 140280406945648 +++
+
+2022-09-19 13:28:01,045: %UNICON-INFO: connection to D1
+
+2022-09-19 13:31:40,568: %UNICON-INFO: +++ D1 logfile initial-snapshot/connection_D1.txt +++
+
+2022-09-19 13:31:40,568: %UNICON-INFO: +++ Unicon plugin ios (unicon.plugins.ios) +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:UWFxs58S+0z8GYRrVtyBMWBqGpBTjYR0g1I0OeiMqg8.
+Please contact your system administrator.
+Add correct host key in /home/swt/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/swt/.ssh/known_hosts:33
+  remove with:
+  ssh-keygen -f "/home/swt/.ssh/known_hosts" -R "10.10.7.111"
+RSA host key for 10.10.7.111 has changed and you have requested strict checking.
+Host key verification failed.
+
+
+2022-09-19 13:31:40,659: %UNICON-INFO: +++ connection to spawn: ssh -l ansi 10.10.7.111, id: 139833222311792 +++
+
+2022-09-19 13:31:40,660: %UNICON-INFO: connection to D1
+
+2022-09-19 13:36:45,451: %UNICON-INFO: +++ D1 logfile initial-snapshot/connection_D1.txt +++
+
+2022-09-19 13:36:45,451: %UNICON-INFO: +++ Unicon plugin ios (unicon.plugins.ios) +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:UWFxs58S+0z8GYRrVtyBMWBqGpBTjYR0g1I0OeiMqg8.
+Please contact your system administrator.
+Add correct host key in /home/swt/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/swt/.ssh/known_hosts:33
+  remove with:
+  ssh-keygen -f "/home/swt/.ssh/known_hosts" -R "10.10.7.111"
+RSA host key for 10.10.7.111 has changed and you have requested strict checking.
+Host key verification failed.
+
+
+2022-09-19 13:36:45,511: %UNICON-INFO: +++ connection to spawn: ssh -l ansi 10.10.7.111, id: 140308335669104 +++
+
+2022-09-19 13:36:45,511: %UNICON-INFO: connection to D1
+
+2022-09-19 14:12:09,690: %UNICON-INFO: +++ D1 logfile initial-snapshot/connection_D1.txt +++
+
+2022-09-19 14:12:09,690: %UNICON-INFO: +++ Unicon plugin ios (unicon.plugins.ios) +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:UWFxs58S+0z8GYRrVtyBMWBqGpBTjYR0g1I0OeiMqg8.
+Please contact your system administrator.
+Add correct host key in /home/swt/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/swt/.ssh/known_hosts:33
+  remove with:
+  ssh-keygen -f "/home/swt/.ssh/known_hosts" -R "10.10.7.111"
+RSA host key for 10.10.7.111 has changed and you have requested strict checking.
+Host key verification failed.
+
+
+2022-09-19 14:12:09,788: %UNICON-INFO: +++ connection to spawn: ssh -l ansi 10.10.7.111, id: 139862937665600 +++
+
+2022-09-19 14:12:09,789: %UNICON-INFO: connection to D1

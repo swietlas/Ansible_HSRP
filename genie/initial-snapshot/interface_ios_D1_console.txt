@@ -1,0 +1,19 @@
++++ Reconnecting +++
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:UWFxs58S+0z8GYRrVtyBMWBqGpBTjYR0g1I0OeiMqg8.
+Please contact your system administrator.
+Add correct host key in /home/swt/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/swt/.ssh/known_hosts:33
+  remove with:
+  ssh-keygen -f "/home/swt/.ssh/known_hosts" -R "10.10.7.111"
+RSA host key for 10.10.7.111 has changed and you have requested strict checking.
+Host key verification failed.
+
++++ connection to spawn: ssh -l ansi 10.10.7.111, id: 139862937333568 +++
+connection to D1
