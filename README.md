@@ -16,13 +16,13 @@ There are two ways to use this demonstration.
 
 - dual command execution.
 
-Configure basic settings using *basic_config.yml* inclugint creating interfaces, assigning IP addresses, adding VLANs and configure Trunk ports.
+        Configure basic settings using *basic_config.yml* inclugint creating interfaces, assigning IP addresses, adding VLANs and configure Trunk ports.
 
-`ansible-playbook basic_config.yml`
+    `ansible-playbook basic_config.yml`
 
-Apply HSRP and tracking settings.
+    Apply HSRP and tracking settings.
 
-`ansible-playbook hsrp_config.yml`
+    `ansible-playbook hsrp_config.yml`
 
 
 
