@@ -16,7 +16,7 @@ There are two ways to use this demonstration.
 
 - dual command execution.
 
-        Configure basic settings using *basic_config.yml* inclugint creating interfaces, assigning IP addresses, adding VLANs and configure Trunk ports.
+    Configure basic settings using *basic_config.yml* inclugint creating interfaces, assigning IP addresses, adding VLANs and configure Trunk ports.
 
     `ansible-playbook basic_config.yml`
 
