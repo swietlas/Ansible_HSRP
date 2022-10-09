@@ -1,6 +1,4 @@
 venv/
-!vrunner/
 vrunner/*
 backups/*
-!backups/*
 
